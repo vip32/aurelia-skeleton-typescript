@@ -23,7 +23,7 @@ System.config({
     "aurelia-framework": "npm:aurelia-framework@1.0.0-beta.1.0.1",
     "aurelia-history": "npm:aurelia-history@1.0.0-beta.1",
     "aurelia-history-browser": "npm:aurelia-history-browser@1.0.0-beta.1",
-    "aurelia-http-client": "github:aurelia/http-client@0.13.0",
+    "aurelia-http-client": "npm:aurelia-http-client@1.0.0-beta.1",
     "aurelia-loader": "npm:aurelia-loader@1.0.0-beta.1",
     "aurelia-loader-default": "npm:aurelia-loader-default@1.0.0-beta.1.0.1",
     "aurelia-logging": "npm:aurelia-logging@1.0.0-beta.1",
@@ -38,7 +38,6 @@ System.config({
     "aurelia-templating-binding": "npm:aurelia-templating-binding@1.0.0-beta.1",
     "aurelia-templating-resources": "npm:aurelia-templating-resources@1.0.0-beta.1.0.1",
     "aurelia-templating-router": "npm:aurelia-templating-router@1.0.0-beta.1.0.1",
-    "aurelia/http-client": "github:aurelia/http-client@0.13.0",
     "babel": "npm:babel-core@5.8.34",
     "babel-runtime": "npm:babel-runtime@5.8.34",
     "bootstrap": "github:twbs/bootstrap@3.3.5",
@@ -48,11 +47,6 @@ System.config({
     "font-awesome": "npm:font-awesome@4.4.0",
     "systemjs/plugin-text": "github:systemjs/plugin-text@0.0.3",
     "text": "github:systemjs/plugin-text@0.0.3",
-    "github:aurelia/http-client@0.13.0": {
-      "aurelia-pal": "github:aurelia/pal@0.3.0",
-      "aurelia-path": "github:aurelia/path@0.11.0",
-      "core-js": "npm:core-js@1.2.6"
-    },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -125,6 +119,11 @@ System.config({
     "npm:aurelia-history-browser@1.0.0-beta.1": {
       "aurelia-history": "npm:aurelia-history@1.0.0-beta.1",
       "aurelia-pal": "npm:aurelia-pal@1.0.0-beta.1",
+      "core-js": "npm:core-js@1.2.6"
+    },
+    "npm:aurelia-http-client@1.0.0-beta.1": {
+      "aurelia-pal": "npm:aurelia-pal@1.0.0-beta.1",
+      "aurelia-path": "npm:aurelia-path@1.0.0-beta.1",
       "core-js": "npm:core-js@1.2.6"
     },
     "npm:aurelia-loader-default@1.0.0-beta.1.0.1": {
