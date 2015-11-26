@@ -47,7 +47,6 @@ System.config({
     "font-awesome": "npm:font-awesome@4.4.0",
     "systemjs/plugin-text": "github:systemjs/plugin-text@0.0.3",
     "text": "github:systemjs/plugin-text@0.0.3",
-    "typescript": "npm:typescript@1.6.2",
     "github:aurelia/http-client@0.10.3": {
       "aurelia-path": "github:aurelia/path@0.8.1",
       "core-js": "npm:core-js@0.9.18"
